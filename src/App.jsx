@@ -37,14 +37,14 @@ function App() {
 
   return (
     <> 
-    <div className="bg-white bg-center bg-cover px-20 py-2 m-auto flex justify-center">
+    <div className="bg-white bg-center bg-cover px-20 py-2 m-auto md:flex md:justify-center">
       <nav className="flex items-center">
       <img src={image1} alt="logo" className="w-[85px] mr-16"/>
 
-        <ul className="flex items-center ">
-          <li className=" list-none inline-block px-5"><a href="#" className="no-underline text-[#E5745D] px-2 hover:text-blue-700">Home</a></li>
+        <ul className="md:flex md:items-center duration-500">
+          <li className=" list-none inline-block px-5"><a href="#" className="no-underline text-[#E5745D] px-2 hover:text-blue-700 ">Home</a></li>
 
-          <li className=" list-none inline-block px-5"><a href="#" className="no-underline text-[#014A45] px-2 hover:text-red-600">Pages</a></li>
+          <li className=" list-none inline-block px-5"><a href="#" className="no-underline text-[#014A45] px-2 hover:text-red-600 ">Pages</a></li>
 
           <li className=" list-none inline-block px-5"><a href="#" className="no-underline text-[#014A45] px-2 hover:text-red-600">Services</a></li>
 
@@ -54,18 +54,19 @@ function App() {
         </ul>
 
 
-        <button className="ml-16 bg-orange-500 text-white py-[15px] px-10 border border-white outline outline-4 outline-red-500 hover:bg-blue-700">Download cv</button>
+        <button className="ml-16 bg-orange-500 text-white py-[15px] px-10 border border-white outline outline-4 outline-red-500 hover:bg-blue-700 duration-500">Download cv</button>
       </nav>
     </div>
 
 
-     <div className="container m-auto">
-     <div className='flex justify-between'>
-    <div className="bg-[#00413D] w-[980px] justify-center py-16 px-28">
+     <div className="container md:m-auto">
+     <div className='md:flex md:justify-between'>
+    <div className="bg-[#00413D] md:w-[980px] md:justify-center py-16 px-28">
       <h1 className="text-white text-6xl ">Hello! <br></br> I’m Zarror Nibors</h1>
 
       <p className="text-white mt-10 text-xs">I’am freelance UI/UX Desogner based in Indonesia who loves to craft <br></br> attractive design experiences for the web.</p>
-      <button className="mt-10 bg-orange-500 text-white py-[10px] px-8 border border-white outline outline-4 outline-red-500 hover:bg-blue-700">Contact Me</button>
+      <button className="mt-10 bg-orange-500 text-white py-[10px] px-8 border border-white outline outline-4 outline-red-500 hover:bg-blue-700 duration-500
+      ">Contact Me</button>
     </div>
     <div>
     <img src={image2} alt="" className=""/>
@@ -75,8 +76,8 @@ function App() {
 
 
     <div className='text-center mt-20 '>
-      <div className='flex justify-center gap-2'>
-       <div><img src={image23} alt="logo" className="w-7 mt-2 "/></div>
+      <div className='md:flex md:justify-center md:gap-2'>
+       <div><img src={image23} alt="logo" className="md:w-7 mt-2 "/></div>
        <div><p className='text-[#E5745D] font-bold text-xs'>MY SERVICES</p></div>
       </div>
       <p className='text-[#00413D] text-3xl font-bold'>Provide Wide Range of <br></br>
@@ -85,7 +86,7 @@ function App() {
 
 
 
-    <div className='flex gap-16 justify-center mt-[6rem] text-[#00413D]'>
+    <div className='md:flex gap-16 md:justify-center mt-[6rem] text-[#00413D]'>
 
       <div className="shadow-2xl px-6">
       <img src={image3} alt="" className="mt-2"/>
@@ -135,7 +136,7 @@ magnam aliquam quaerat<br></br> voluptatem reprehenderit.<br></br><br></br>
 Modi tempora incidunt ut lao magnam aliquam quaerat voluptatem
 reprehenderit<br></br> non numquam eius.</p>
 
-<button className="mt-10 bg-orange-500 text-white py-[10px] px-8 border border-white outline outline-4 outline-red-500 hover:bg-blue-700">Download CV</button>
+<button className="mt-10 bg-orange-500 text-white py-[10px] px-8 border border-white outline outline-4 outline-red-500 hover:bg-blue-700 duration-500">Download CV</button>
     
     </div>
     </div>
@@ -201,7 +202,7 @@ reprehenderit<br></br> non numquam eius.</p>
      </div>
       </div>
        <div className='flex justify-center'>
-       <button className=" mt-5  bg-orange-500 text-white py-[10px] px-5 border border-white outline outline-4 outline-red-500 hover:bg-blue-700">Explore More</button>
+       <button className=" mt-5  bg-orange-500 text-white py-[10px] px-5 border border-white outline outline-4 outline-red-500 hover:bg-blue-700 duration-500">Explore More</button>
        </div>
 
 
@@ -250,8 +251,6 @@ reprehenderit<br></br> non numquam eius.</p>
       <p className="text-4xl text-[#00413D]">Feedback From Client</p>
      </div>
 
-
- 
 
 <div className="flex justify-center mt-8 text-[#00413D] space-x-2">
 <div className='shadow-2xl p-3 border-t-4 border-[#E5745D] px-5'>
@@ -323,7 +322,7 @@ reprehenderit<br></br> non numquam eius.</p>
 
 
 
-  <button className=" mt-5 ml-6 bg-orange-500 text-white py-[12px] px-8 border border-white outline outline-4 outline-red-500 hover:bg-blue-700">Contact Us</button>
+  <button className=" mt-5 ml-6 bg-orange-500 text-white py-[12px] px-8 border border-white outline outline-4 outline-red-500 hover:bg-blue-700 duration-500">Contact Us</button>
 </div>
 </div>
 
@@ -398,9 +397,6 @@ reprehenderit<br></br> non numquam eius.</p>
         <img src={image25} alt="" className="bg-[#E5745D] p-1 rounded-2xl w-7"/>
         <img src={image26} alt="" className="bg-[#E5745D] rounded-2xl p-1 w-7"/>
         </div>
-
-       
-
         <p className="text-xs text-white mt-12 ">Copyright © 2023 Design By Estiak. All rights reserved.</p>
       </div>
        </div>
